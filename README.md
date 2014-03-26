@@ -1,5 +1,4 @@
 courseMaterials
 ===============
 
-The publicly available files for ECON 21410 
-(currently still private)
+The publicly available files for ECON 21410 at the University of Chicago.
