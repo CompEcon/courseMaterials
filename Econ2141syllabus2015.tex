@@ -38,7 +38,7 @@
 \usepackage{color}
 
 \title{ECON 21410: Computational Methods in Economics}
-\subtitle{University of Chicago, Spring 2014}
+\subtitle{University of Chicago, Spring 2015}
 \date{}
 \doublespace
 \lstset{language=R,caption={Descriptive Caption Text},label=DescriptiveLabel}
@@ -50,29 +50,28 @@
 
 \subsection*{ADMINISTRATIVE}
 
-\paragraph{Class:} Tuesdays and Thursdays at 10:30am in Stuart 102
+\paragraph{Class:} Mondays and Wednesdays at 10:30am in SHFE-203
 
-\paragraph{TA Session:} Mondays at 5pm in Stuart 222.
+\paragraph{TA Session:} Thursday 6:00pm in Cobb-102
 
 \paragraph{Lecturer:}  
 John Eric Humphries ~~ \href{mailto:johneric@uchicago.edu}{johneric@uchicago.edu}
 
-Office Hours: Mondays and Wednesdays 9:30-10:30am in the Stuart Cafe. 
+Office Hours: Mondays and Wednesdays 9:30-10:20am in the SHFE-210 (graduate student lounge starting Wednesday of first week). 
 
 \paragraph{Teaching Assistant:}
 Oliver Browne ~~  \href{mailto:obrowne@uchicago.edu}{obrowne@uchicago.edu}
 
-Office Hours: 5-6pm in Stuart Cafe.
+Office Hours: to be determined
 
 \paragraph{Website:}
 
-The class will not use Chalk heavily. Homeworks will be posted on my website at \href{http://home.uchicago.edu/johneric/teaching}{http://home.uchicago.edu/johneric/teaching} as well as on our github organization's page at: \href{http://www.github.com/compecon}{http://www.github.com/compecon} .
-
+The class will not use Chalk. Homeworks will be posted on my website at \href{http://home.uchicago.edu/johneric/teaching}{http://home.uchicago.edu/johneric/teaching}.
 \subsection*{ABOUT THE COURSE}
 
 This course aims to prepare students to: begin empirical research, be effective research assistants, and be more prepared for graduate school. This is roughly the same preparation needed for empirical work in the finance or consulting. Aiming to complement the theoretical training offered to top undergraduates at the University of Chicago, this class will focused on applying economic models and econometric methods. 
 
-\pagebreak
+
 
 The course is designed to equip students with the skills to:
 \begin{enumerate}
@@ -116,26 +115,26 @@ To get ahead of the curve, please install the following software:
 
 \subsection*{LAYOUT}
 
-The course will consist of several small projects which involve simulation or estimation of economic models. On Tuesdays we will lay out the economic model we are working with that week and on Thursdays we will cover the requisite empirical and computational methods needed to complete the assignment. Additional support will be given in TA sessions. You do not need to bring a computer to class. I will do some live coding in class, but I will always email these files to the class afterwards. 
+The course will consist of several small projects which involve simulation or estimation of economic models. On Tuesdays we will lay out the economic model we are working with that week and on Thursdays we will cover the requisite empirical and computational methods needed to complete the assignment. Additional support will be given in TA sessions. You do not need to bring a computer to class, but are welcome I will do some live coding in class, but I will always email these files to the class afterwards. 
 
 
 \subsection*{COURSE TIMELINE}
 
-\paragraph{WEEK 1} 
-A rapid introduction to R - solving linear regression multiple ways.
+
+\paragraph{WEEK 1}
+Simulating Becker's marriage model and solving for optimal marriage matches using the Gale-Shapley algorithm.
 
 \paragraph{WEEK 2}
 Learning basic data management and control-flow in R - a simulation of Schelling's segregation model.
 
-
-\paragraph{WEEK 3}
-Simulating Becker's marriage model and solving for optimal marriage matches using the Gale-Shapley algorithm.
+\paragraph{WEEK 3} 
+A rapid introduction to working with Data in R - functional approximation and cross-validation. 
 
 \paragraph{WEEK 4}
-Understanding selection, a simulation of the Roy model.
+Optimization with R - an example on solving consumer maximization problems. 
 
 \paragraph{WEEK 5}
-Correcting empirical estimates for selection bias (applying recently learned tools to real data).
+Simulating a model of housing stock, rental prices, and investment. 
 
 \paragraph{WEEK 6-7}
 Further learning to work with data through replicating a paper on firm entry. 
@@ -144,7 +143,7 @@ Further learning to work with data through replicating a paper on firm entry.
 To be determined based on the level and interests of the students in the course. May include simulating a simple full economy, job-search, parental investment, a simple game-theory model from industrial organization, or a trade application which requires basic linear programming. 
 
 \paragraph{FINAL}
-The course will conclude with a final project. This will involve replicating a simplified version of a recent paper. Alternatively students may complete the final project with a research paper. We will also have a short written or computer based final to test the basic programming skills and concepts taught in the course. 
+The final for the course will be a independent research project. We will also have a short written or computer based exam to test the basic programming skills and concepts taught in the course 8th week. Students are 
 
 \subsection*{RESOURCES}
 
@@ -155,35 +154,38 @@ Here is a list of useful R resources:
 \item \href{http://cran.r-project.org/doc/contrib/Farnsworth-EconometricsInR.pdf}{http://cran.r-project.org/doc/contrib/Farnsworth-EconometricsInR.pdf} (slightly out of date, but a short useful guide
 \item \href{http://link.springer.com/book/10.1007/978-0-387-77318-6}{http://link.springer.com/book/10.1007/978-0-387-77318-6} (also slightly out of date, free to download on the campus network)
 \item \href{http://files.itslearning.com/data/ku/103018/teaching/lecturenotes.pdf}{http://files.itslearning.com/data/ku/103018/teaching/lecturenotes.pdf}
-\item search "with R" on \href{springerlinks.com}{springerlinks.com}
+\item search ``with R'' on \href{springerlinks.com}{springerlinks.com}
 \end{itemize}
 
 \subsection*{GRADING}
 \begin{itemize}
-\item 55\% homework projects
+\item 50\% homework projects
 \item 10\% final exam
-\item 15\% final project
+\item 20\% final project
 \item 10\% participation 
 \item 10\% side projects
 \end{itemize}
 
-As this is the first time this course has been taught, I reserve the right to change this breakdown if it becomes necessary. If we feel homework is not done independently enough to identify individual effort and undestanding, additional weight will be shifted to the final and final exam.
+I reserve the right to change this breakdown if it becomes necessary. If we feel homework is not done independently enough to identify individual effort and undestanding, additional weight will be shifted to the final and final exam.
 
 Suggestions for side-projects will be provided with each homework, but your own side-projects can be approved by the TA or myself. Side-projects are designed to let you explore additional methods or details that interest you. One point towards side projects earns one percentile of the 10 possible for side projects.
 
 Participation will be based on attendance and engagement in class, but can also be fulfilled through coming to office hours, contributing to the class wiki on github, or answering and asking questions on the class github page (this will be explained further in a TA session).
 
+Students leaving early for summer internships may do so, but all deadlines and requirements will still apply. 
+
 \subsection*{PREREQUISITES}
-The prerequisites listed online were incorrect. You should have taken econ 200-201, econ 209 (or 210) and math 195-196 (or analysis). Exposure to some programming language will be very useful, but is not required. 
+You should have already taken econ 200-201, econ 209 (or 210) and math 195-196 (or analysis). Exposure to some programming language will be very useful, but is not required. 
 
 \subsection*{POLICIES}
 
 We take cheating and plagiarism VERY seriously. Every class you have ever take probably states that cheating will not be tolerated, but we mean it. %It is your responsibility to use git, dropbox, or another file versioning system. If we suspect cheating has occurred, it is your responsibility to 
 
-Cheating or plagiarism will result in a 0 on that assignment with possible additional repercussions. You are welcome to work together in groups up to 3, but you are required to submit your own write-up and your own code. Please take precautions to avoid putting the TA or myself in a situation where we are forced to decide if two documents are ``too similar''. As future researchers, consultants, bankers, etc, learning to do honest work in a timely manner is more important than getting everything correct.
+Cheating or plagiarism will result in a 0 on that assignment with possible additional repercussions. You are welcome to work together in groups up to 4, but you are required to submit your own write-up and your own code. Please take precautions to avoid putting the TA or myself in a situation where we are forced to decide if two documents are ``too similar''. As future researchers, consultants, bankers, etc, learning to do honest work in a timely manner is more important than getting everything correct.
 
-You are required to write the names of your other group members on your assignment. If you discuss the homework in detail with people not in your group, please note this in a footnote.
+You are required to write the names of your other group members on your assignment. If you discuss the homework in detail with people not in your group, please note this in a footnote as well.
 
+You are allowed to use any online resources available, the one exception is using previous homeworks for the 2014 version of this course. Any use of previous homework solutino constitutes cheating and is strictly forbidden. 
 
 Homeworks submitted late, but prior to the TA session will receive half credit. We will not accept homework assignments submitted after the TA session where answers are discussed. If you have a conflict, please plan in advance. We will consider granting extensions requested more than 5 days in advance, as well as documented family emergencies.
 
